@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+body{
+    font-family: "Raleway", "Sans serif";
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+#bloc_page {
+    width: 80%; 
+    margin: auto;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#logo-reservia {
+    margin-top: 20px;
+}
+
+#link {
+    display: flex;
+}
+
+#link a:hover {
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#sign-up {
+    font-weight: bold;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#head h1 {
+    font-weight: bold;
+    font-size: 1.9em;
+    margin-bottom: 0;
+}
+
+#head p {
+    font-size: 1em;;
+}
+
+span {
+    font-size: 1em;
+}
+
+.filter {
+    border: 3px solid #f2f2f2;
+    border-left:#ffffff;
+    padding: 12px 15px 12px 0px;
+    border-radius: 50px;
+}
+
+.filter:hover {
+    background-color: #deebff;
+}
+
+.icons-filters {
+    color: #0065fc; 
+    border-radius:  100%;
+    background-color: #deebff;
+    padding: 15px;
+}
+
+.fa-info {
+    color: #0065fc;
+    border: 2px solid #f2f2f2;
+    border-radius: 100%;
+    padding: 5px 12px 5px 12px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#info {
+    font-size: 0.97em;
+}
+
+.container-search {
+    margin-top: 40px;
+    display:flex;
+}
+
+#map-icon {
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 10px 0 0 10px;
+}
+
+input  {
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+button {
+    background-color: #0065fc;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: transform .2s;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+
+p { 
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.fa-star {
+    font-size: 15px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav li {
+    margin: 30px;
+}
+
+
+#filters {
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 60%;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+#location {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse
+}
+
+.categories {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 60%;
+    padding: 10px 30px 30px 30px;
+    
+}
+
+.categories  h2{ 
+    margin-left: 25px;
+}
+
+#more {
+    margin-left: 25px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.logements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.descrition {
+    display:flex;
+    flex-direction: column; 
+    margin: 2px 0 10px 10px;
+    justify-content: space-between;
+
+}
+
+.descrition h3 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.first {
+    display:block;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: transform .2s;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px 3px #cbccce;
+}
+
+.first:hover
+{
+    transform: scale(1.05);
+}
+
+.first img {
+    height : 135px;
+    width : 250px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+
+}
+
+.second {
+    display: block;
+    background-color: #ffffff; 
+    border-radius: 20px;
+    margin: 25px 0 25px 0; 
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px #cbccce;
+    display:flex; 
+    flex-wrap: wrap;
+    transition: transform .2s;
+}
+
+.second:hover
+{
+    transform: scale(1.05);
+}
+
+
+.second img {
+    border-radius: 20px 0 0 20px;
+    height: 135px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.grade-icon-on  {
+    color: #0065fc;
+}
+
+.grade-icon-off {
+    color: #f2f2f2;
+}
+
+.third {
+    background-color: #ffffff; 
+    border-radius: 20px;
+    margin: 25px 0 25px 0; 
+    box-shadow: 0 0 20px #0000002e;
+    transition: transform .2s;
+}
+
+.third img {
+    border-radius: 20px 20px 0 0;
+}
+
+.third:hover
+{
+    transform: scale(1.05);
+}
+
+#chart-line {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    background-color: #f2f2f2;
+    padding: 10px 30px 30px 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 30%;
+}
+
+.pop {
+    display: flex;
+}
+
+figure {
+    margin: auto;
+}
+
+
+#tourism {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    justify-items: center; 
+    width: 100%;
+}
+
+.activities-max .third {
+    height: 415px;
+}
+
+
+.activities-max {
+    width: 300px;
+}
+
+
+.activities-max .third img {
+    object-fit: cover;
+    width: 300px;
+    height : 360px;
+}
+
+.activities-min .third {
+    height: 195px; 
+}
+
+.activities-min {
+    width: 300px;
+}
+
+.activities-min .third img {
+    object-fit: cover;
+    width: 300px;
+    height: 147px;
+}
+
+figcaption {
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 1.03em;
+    padding-top: 6px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin: auto;
+    display: block;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding-left: unset;
+}
+
+footer li {
+    margin: 12px 0 12px 0;
+}
+
+footer li:hover {
+    transform: scale(1.05);
+}
+
+
+@media screen and (min-width: 1450px) and (max-width: 1785px) {
+
+    
+    #bloc_page {
+        width: auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1786px) and (max-width: 1845px) {
+
+    .first {
+        width:40%;
+    }
+    
+    .first img {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1450px) and (max-width: 1485px) {
+
+    .first {
+        width:40%;
+    }
+    
+    .first img {
+        width: 100%;
+    }
+    
+
+}
+
+
+
+
